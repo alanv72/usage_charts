@@ -121,7 +121,7 @@ WHERE	stc_id in(
 		ORDER BY stc_dayts DESC
 		)a
 	GROUP BY oc_uid
-)
+) ORDER BY stc_total
 EoR;
 			$myQry = OCP\DB::prepare($mySQL);
 			$return= $myQry->execute()->fetchAll();

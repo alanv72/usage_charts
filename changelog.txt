@@ -1,3 +1,4 @@
+2014-04-28 Work-around for Pie Chart not displaying correctly in admin view. Added a order by in mysql query to have the total size of the chart be whatever is the biggest quota for all users. To make this work-around work. Put the OC admin user's quota to the total space you want to be allocated to all OC users. Will find a better way to calc this. But this will work for now.
 2014-04-27 Correct versioning so that this plugin can be enabled in OC6. Correct one reference to settings.svg.
 
 ToDo/Roadmap:
