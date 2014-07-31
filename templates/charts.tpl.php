@@ -24,9 +24,9 @@
 *
 */
 
-OCP\Util::addStyle('3rdparty','chosen');
+OCP\Util::addStyle('usage_charts','chosen');
 OCP\Util::addStyle('usage_charts', 'styles');
-OCP\Util::addScript('3rdparty','chosen/chosen.jquery.min');
+OCP\Util::addScript('usage_charts','chosen/chosen.jquery.min');
 OCP\Util::addScript('usage_charts', 'highCharts/highcharts');
 OCP\Util::addScript('usage_charts', 'chartsUsedStorage');
 
